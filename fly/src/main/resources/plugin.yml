@@ -1,0 +1,26 @@
+name: Fly
+version: 1.1.0
+main: com.shazzy.fly.Main
+api-version: 1.13
+authors: [ Shazzy ]
+description: A simple /fly plugin
+
+
+commands:
+  fly:
+    description: Main command
+    usage: /fly <playername>
+  flyreload:
+    description: reloads the config
+    usage: /flyreload
+
+permissions:
+  fly.use:
+    description: Ability to use /fly
+    default: op
+  fly.use.others:
+    description: Ability to use /flly <playername>
+    default: op
+  fly.reload:
+    default: op
+    description: Ability to do /flyreload

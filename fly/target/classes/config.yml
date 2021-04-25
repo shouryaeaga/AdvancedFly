@@ -1,0 +1,17 @@
+# ----------------------------------
+# Config file for advanced fly!
+# ----------------------------------
+
+# What message when the player doesn't have permission to use any of the commands!
+permission-message: '&4You do not have permission to execute this command!'
+
+# Prefix of the plugin! Adds this to the start of every message! Set to '' to disable prefix
+prefix: "&7[&bADVANCED FLY&7] "
+
+messages:
+  # What to send when a player gets the ability to fly
+  ability: "&bYou can now fly!"
+  # What to send when a player loses the ability to fly
+  disability: "&cYou cannot fly anymore!"
+  # What to send when the player is not online
+  not-online: "&4That player is not online!"
